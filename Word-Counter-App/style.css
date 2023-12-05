@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: #fff;
+    margin: 0 20px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 768px;
+}
+header{
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 5px 0;
+    font-size: 1.7rem;
+    color: #111;
+}
+label{
+    display: block;
+    width: 100%;
+}
+textarea{
+    padding: 10px;
+    font-size: 14px;
+    border: solid 2px #f0f0f0;
+    border-radius: 1rem;
+    outline: none;
+    width: 100%;
+}
+
